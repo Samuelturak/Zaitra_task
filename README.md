@@ -39,9 +39,13 @@ The package also **produces metadata** in the following formats:
 - The output s2_catalogue is created inside the repository.
 
 
-
 ## Installation:
-- Go inside s2_dataset_processor and use command `pip install .`
+- Use these lines:
+pip install wheel
+python setup.py bdist_wheel
+python setup.py sdist
+python setup.py bdist_wheel sdist
+pip install
 
 
 
