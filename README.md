@@ -41,11 +41,9 @@ The package also **produces metadata** in the following formats:
 
 ## Installation:
 - Use these lines:
-pip install wheel
-python setup.py bdist_wheel
-python setup.py sdist
-python setup.py bdist_wheel sdist
-pip install
-
-
+- pip install wheel
+- python setup.py bdist_wheel
+- python setup.py sdist
+- python setup.py bdist_wheel sdist
+- pip install .
 
