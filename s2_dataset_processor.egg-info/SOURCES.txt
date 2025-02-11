@@ -1,0 +1,9 @@
+README.md
+setup.py
+s2_dataset_processor/__init__.py
+s2_dataset_processor/process_s2_catalogue.py
+s2_dataset_processor.egg-info/PKG-INFO
+s2_dataset_processor.egg-info/SOURCES.txt
+s2_dataset_processor.egg-info/dependency_links.txt
+s2_dataset_processor.egg-info/requires.txt
+s2_dataset_processor.egg-info/top_level.txt
