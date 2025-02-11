@@ -1,3 +1,4 @@
+LICENSE
 README.md
 setup.py
 s2_dataset_processor/__init__.py

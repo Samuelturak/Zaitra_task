@@ -3,3 +3,5 @@
 /s2_catalogue/dataset_metadata.json
 /s2_catalogue/tile_metadata.csv
 /dataset
+/build
+/dist

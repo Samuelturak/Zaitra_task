@@ -11,6 +11,7 @@ Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
+License-File: LICENSE
 
 ## Purpose
 This package preprocesses the **Sentinel-2 Cloud Mask Catalogue** dataset into a machine learning (ML) ready format.  
@@ -49,8 +50,15 @@ The package also **produces metadata** in the following formats:
     `convert_mask("Your dataset masks path")`  # Process masks and save metadata
     `tile_metadata()`  # Load metadata and write CSV
     `dataset_metadata()`  # Generate dataset-level metadata JSON
+- IMPORTANT! Place the dataset at the root of the repository.
+- The output s2_catalogue is created inside the repository.
+
+
 ## Installation:
-- Go inside s2_dataset_processor and use command `pip install .`
+- Use command `python setup.py bdist_wheel`, if neccesary `pip install wheel` before
+- Next use `python setup.py sdist`
+- Continue with `python setup.py bdist_wheel sdist`
+- Lastly, use `pip install .`
 
 
 
