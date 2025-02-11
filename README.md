@@ -35,7 +35,8 @@ The package also **produces metadata** in the following formats:
     `convert_mask("Your dataset masks path")`  # Process masks and save metadata
     `tile_metadata()`  # Load metadata and write CSV
     `dataset_metadata()`  # Generate dataset-level metadata JSON
-- IMPORTANT! Place the dataset next to the package.
+- IMPORTANT! Place the dataset at the root of the repository.
+- The output s2_catalogue is created inside the repository.
 
 
 
